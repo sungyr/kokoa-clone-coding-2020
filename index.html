@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome To KOKOA TALK</title>
+    <title>Welcome To KOKOA CLONE</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,9 +22,20 @@
       </div>
     </div>
 
-    <header>
-      <h1>Welcome to KOKOA Clone</h1>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to KOKOA Clone</h1>
+      <p class="welcome-header__text">
+        If you have a KOKOA Account, please log in with your email or your phone
+        number.
+      </p>
     </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or Phone Number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find KOKOA Account or Password</a>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
